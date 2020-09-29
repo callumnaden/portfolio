@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import '../App.css';
 import WorkNav from '../components/WorkNav';
 import { Player, ControlBar } from 'video-react';

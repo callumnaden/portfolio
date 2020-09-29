@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { useSpring, animated } from 'react-spring'
 import './portrait-style.css' // // Icons made by Freepik from www.flaticon.com
 

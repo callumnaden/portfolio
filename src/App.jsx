@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Footer from './components/Footer';
 import Home from './pages/HomePage';
 import About from './pages/AboutPage';
 import LatestWork from './pages/LatestWorkPage';
@@ -10,10 +9,8 @@ import LesMills from './pages/LesMills';
 import FlamingBonnet from './pages/FlamingBonnet';
 import BronzeFalls from './pages/BronzeFalls';
 import HushHeath from './pages/HushHeath';
-import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
+import { Switch, Route, NavLink } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-
-import {useSpring, animated} from 'react-spring'
 
 
 
@@ -123,7 +120,7 @@ function getPrefColorScheme() {
               <div className="footer">
                 <motion.div className="mail-me"
                 variants={ChildVarients}>
-                        <a className="mail-me-link" href="#">
+                        <a className="mail-me-link" href="mailto:callumnadendesign@gmail.com">
                             <svg className="mail-img" width="42" height="34" viewBox="0 0 42 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 0V33.6H42V0H0ZM11.5903 14.8008L3.5 25.4632V7.80827L11.5903 14.8008ZM4.3435 3.73333H37.6548L21 18.1309L4.3435 3.73333ZM14.308 17.1509L21 22.9357L27.7025 17.1416L37.5235 29.8667H4.66025L14.308 17.1509ZM30.422 14.7915L38.5 7.80827V25.2579L30.422 14.7915Z"/>
                             </svg>say hello
@@ -133,7 +130,7 @@ function getPrefColorScheme() {
                 variants={ChildVarients}>
                     <p className="footer-text">You can also find me on
                         <br/>
-                        <a href="#" className="social">Linked-In</a> and <a href="#" className="social">Facebook</a>.
+                        <a href="www.linkedin.com/in/callumnaden" className="social">Linked-In</a> and <a href="https://www.facebook.com/callum.naden.56/" className="social">Facebook</a>.
                     </p>
                 </motion.div>
           </div>

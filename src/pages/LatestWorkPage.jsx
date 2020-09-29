@@ -13,7 +13,7 @@ const ParentVarients = {
         opacity: 1,
         transition: {
             type: 'spring',
-            staggerChildren: 0.2,
+            staggerChildren: 0.,
             when: "beforeChildren",
         }
     }
