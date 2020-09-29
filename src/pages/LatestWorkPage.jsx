@@ -46,13 +46,13 @@ const LatestWork = () => {
                 <div className="work-nav">
                     <motion.p
                     variants={ChildVarients}>
-                        <NavLink to="/latest-work/les-mills" className="nav-link" activeClassName="work-nav-active">LES MILLS</NavLink></motion.p>
+                        <NavLink to="/latest-work/les-mills" className="nav-link" activeClassName="work-nav-active">LES MILLS.</NavLink></motion.p>
                     <motion.p
-                    variants={ChildVarients}><NavLink to="/latest-work/bronze-falls" className="nav-link" activeClassName="work-nav-active">BRONZE FALLS</NavLink></motion.p>
+                    variants={ChildVarients}><NavLink to="/latest-work/bronze-falls" className="nav-link" activeClassName="work-nav-active">BRONZE FALLS.</NavLink></motion.p>
                     <motion.p
-                    variants={ChildVarients}><NavLink to="/latest-work/hush-heath" className="nav-link" activeClassName="work-nav-active">HUSH HEATH</NavLink></motion.p>
+                    variants={ChildVarients}><NavLink to="/latest-work/hush-heath" className="nav-link" activeClassName="work-nav-active">HUSH HEATH.</NavLink></motion.p>
                     <motion.p
-                    variants={ChildVarients}><NavLink to="/latest-work/flaming-bonnet" className="nav-link" activeClassName="work-nav-active">FLAMING BONNET</NavLink></motion.p>
+                    variants={ChildVarients}><NavLink to="/latest-work/flaming-bonnet" className="nav-link" activeClassName="work-nav-active">FLAMING BONNET.</NavLink></motion.p>
                 </div>
             
 

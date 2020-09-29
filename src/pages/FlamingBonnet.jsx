@@ -3,6 +3,8 @@ import '../App.css';
 import WorkNav from '../components/WorkNav';
 import { Player, ControlBar } from 'video-react';
 import { motion } from 'framer-motion';
+import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -31,23 +33,12 @@ const ParentVarients = {
         opacity: 1,
         transition: {
             type: 'spring',
-            delay: 0.4,
-            staggerChildren: 0.3,
         }
     }
     
 }
 
-const ChildVarients = {
-    start: {
-        opacity: 0,
-        y: '-20px'
-    },
-    end: {
-        opacity: 1,
-        y: '0px'
-    }
-}
+
 
 
 const FlamingBonnet = () => {
@@ -60,31 +51,27 @@ const FlamingBonnet = () => {
                     initial="start"
                     animate="end">
                         
-                        <motion.div className="full-col"
-                        variants={ChildVarients}>
+                        <div className="full-col">
                             <img src={images.img1} alt="" />
-                        </motion.div>
+                        </div>
 
-                        <motion.div className="full-col"
-                        variants={ChildVarients}>
+                        <div className="full-col">
                             <div className="work-text-left">
                                 <p>{text.txt1}</p>
                             </div>
-                        </motion.div>                        
+                        </div>                        
 
                        
-                            <motion.div className="two-col-left"
-                            variants={ChildVarients}>
+                            <div className="two-col-left">
                                 <Player autoPlay muted loop={true} src={images.img2}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
-                            </motion.div>
-                            <motion.div className="two-col-right"
-                            variants={ChildVarients}>
+                            </div>
+                            <div className="two-col-right">
                                 <Player autoPlay muted loop={true} src={images.img3}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
-                            </motion.div>
+                            </div>
                      
                         
                         
@@ -93,25 +80,28 @@ const FlamingBonnet = () => {
                            
 
 
-                        <motion.div className="full-col"
-                        variants={ChildVarients}>
+                        <div className="full-col">
                             <Player autoPlay muted loop={true} src={images.img7}>
                                 <ControlBar disableCompletely={true}/>
                             </Player>
-                        </motion.div>
+                        </div>
 
-                        <motion.div className="three-col-left"
-                        variants={ChildVarients}>
+                        <div className="three-col-left">
                                 <img src={images.img6} alt="" />
-                            </motion.div>
-                            <motion.div className="three-col-mid"
-                            variants={ChildVarients}>
+                            </div>
+                            <div className="three-col-mid">
                                 <img src={images.img4} alt="" />
-                            </motion.div>
-                            <motion.div className="three-col-right"
-                            variants={ChildVarients}>
+                            </div>
+                            <div className="three-col-right">
                                 <img src={images.img5} alt="" />
-                            </motion.div>
+                            </div>
+
+
+                            <div className="next-project-container">
+                            <NavLink to="/latest-work/les-mills" className="nav-link" activeClassName="work-nav-active"> <div class="next-poject"><h2>NEXT PROJECT</h2> <svg className="right-arrow" width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.3667 0.333498L13.5707 4.10416L21.8053 12.3388L-1.04954e-06 12.3388L-1.51486e-06 17.6615L21.8053 17.6615L13.5707 25.8962L17.3667 29.6668L32 15.0002L17.3667 0.333498Z" fill="black"/>
+</svg></div></NavLink>
+                            </div>
                        
                         
                     </motion.div>
