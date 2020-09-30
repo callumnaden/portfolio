@@ -21,11 +21,6 @@ const images = {
 }
 const text = {
     txt1: "The brief for this website was assigned to me when I was employed at my previous job. The client wanted a bespoke website that portrayed their company personality and enticed potential customers. The final outcome was well received and the client is still using this website today.",
-    txt2: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt3: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt4: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt5: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt6: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds."
 }
 
 const ParentVarients = {
@@ -55,7 +50,7 @@ const HushHeath = () => {
                     animate="end">
                         
                         <div className="full-col">
-                            <Player autoPlay muted loop={true} src={images.img1}>
+                            <Player playsInline={true} autoPlay muted loop={true} src={images.img1}>
                                 <ControlBar disableCompletely={true}/>
                             </Player>
                         </div>
@@ -106,7 +101,7 @@ const HushHeath = () => {
                             </div>
 
                         <div className="full-col">
-                            <Player autoPlay muted loop={true} src={images.img9}>
+                            <Player playsInline={true} autoPlay muted loop={true} src={images.img9}>
                                 <ControlBar disableCompletely={true}/>
                             </Player>
                         </div>

@@ -24,12 +24,7 @@ const images = {
 
 const text = {
     txt1: "This was a personal project of mine inspired by the waterfalls of New Zealand. Being a fan of the occasional glass of whisky myself, I know just how important the branding is when it comes to choosing your drink. It was my hope that this whisky would appeal to a luxury clientele.",
-    txt2: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt3: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt4: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt5: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds.",
-    txt6: "You gotta think like a tree. Only think about one thing at a time. Don't get greedy. If you didn't have baby clouds, you wouldn't have big clouds."
-}
+   }
 
 const ParentVarients = {
     start: {
@@ -70,13 +65,13 @@ const BronzeFalls = () => {
                        
                             <div className="two-col-left"
 >
-                                <Player autoPlay muted loop={true} src={images.img2}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img2}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>
                             <div className="two-col-right"
 >
-                                <Player autoPlay muted loop={true} src={images.img7}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img7}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>
@@ -100,7 +95,7 @@ const BronzeFalls = () => {
 
                             <div className="full-col"
 >
-                                <Player autoPlay muted loop={true} src={images.img6}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img6}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>

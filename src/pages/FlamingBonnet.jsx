@@ -63,12 +63,12 @@ const FlamingBonnet = () => {
 
                        
                             <div className="two-col-left">
-                                <Player autoPlay muted loop={true} src={images.img2}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img2}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>
                             <div className="two-col-right">
-                                <Player autoPlay muted loop={true} src={images.img3}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img3}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>
@@ -81,7 +81,7 @@ const FlamingBonnet = () => {
 
 
                         <div className="full-col">
-                            <Player autoPlay muted loop={true} src={images.img7}>
+                            <Player playsInline={true} autoPlay muted loop={true} src={images.img7}>
                                 <ControlBar disableCompletely={true}/>
                             </Player>
                         </div>

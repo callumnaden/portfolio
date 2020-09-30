@@ -71,7 +71,7 @@ const ChildVarients = {
 
                             <motion.div className="two-col-right"
                                 variants={ChildVarients}>
-                                <Player autoPlay muted loop={true} src={images.img2}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img2}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </motion.div>
@@ -85,7 +85,7 @@ const ChildVarients = {
 
                             <motion.div className="full-col"
                                 variants={ChildVarients}>
-                                <Player autoPlay muted loop={true} src={images.img3}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img3}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </motion.div>
@@ -98,7 +98,7 @@ const ChildVarients = {
                        
                             <motion.div className="two-col-left"
                                 variants={ChildVarients}>
-                                <Player autoPlay muted loop={true} src={images.img4}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img4}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </motion.div>
@@ -131,7 +131,7 @@ const ChildVarients = {
 
                             <motion.div className="two-col-left"
                                 variants={ChildVarients}>
-                                <Player autoPlay muted loop={true} src={images.img8}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img8}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </motion.div>
@@ -165,7 +165,7 @@ const ChildVarients = {
 
                             <motion.div className="three-col-left"
                                 variants={ChildVarients}>
-                                <Player autoPlay muted loop={true} src={images.img10}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img10}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </motion.div>

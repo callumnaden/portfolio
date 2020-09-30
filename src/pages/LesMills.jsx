@@ -57,7 +57,7 @@ const LesMills = () => {
                     initial="start"
                     animate="end">
                         <div className="full-col">
-                            <Player autoPlay muted loop={true} src={images.img1}>
+                            <Player playsInline={true} autoPlay muted loop={true} src={images.img1}>
                                 <ControlBar disableCompletely={true}/>
                             </Player>
                         </div>
@@ -70,12 +70,12 @@ const LesMills = () => {
 
                        
                             <div className="two-col-left">
-                                <Player autoPlay muted loop={true} src={images.img2}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img2}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>
                             <div className="two-col-right">
-                                <Player autoPlay muted loop={true} src={images.img3}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img3}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>
@@ -124,7 +124,7 @@ const LesMills = () => {
                                
                             </div>
                             <div className="two-col-right">
-                                <Player autoPlay muted loop={true} src={images.img9}>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img9}>
                                     <ControlBar disableCompletely={true}/>
                                 </Player>
                             </div>
