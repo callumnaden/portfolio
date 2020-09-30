@@ -137,6 +137,14 @@ img {
   width: 100%;
 }
 
+video.video-react-video {
+  width: 100%;
+}
+
+button.video-react-big-play-button.video-react-big-play-button-left.big-play-button-hide {
+  display: none;
+}
+
 .header {
   width: 100%;
   float: left;
