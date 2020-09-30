@@ -9,8 +9,8 @@ const WorkPreview = () => {
 
 		return(
             <div className="container">
-                <Player playsInline={true} autoPlay muted loop={true} src="/assets/work-preview.mp4">
-                    <ControlBar disableCompletely={true}/>
+                <Player playsInline={true} autoPlay muted loop={true} src="/assets/work-preview.mp4" fluid={false} width="100%" height="100%" className="video-player">
+                    <ControlBar className="control-bar" disableCompletely={true}/>
                 </Player>
 			</div>
         );

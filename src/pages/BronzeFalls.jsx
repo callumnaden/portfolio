@@ -10,6 +10,7 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
 const images = {
     img1: "/assets/bronzefalls/bf-bottle-case.jpg",
     img2: "/assets/bronzefalls/bronze-falls-web.mp4",
@@ -65,14 +66,14 @@ const BronzeFalls = () => {
                        
                             <div className="two-col-left"
 >
-                                <Player playsInline={true} autoPlay muted loop={true} src={images.img2}>
-                                    <ControlBar disableCompletely={true}/>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img2} fluid={false} width="100%" height="100%" className="video-player">
+                                    <ControlBar className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                             <div className="two-col-right"
 >
-                                <Player playsInline={true} autoPlay muted loop={true} src={images.img7}>
-                                    <ControlBar disableCompletely={true}/>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img7} fluid={false} width="100%" height="100%" className="video-player">
+                                    <ControlBar className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                      
@@ -95,8 +96,8 @@ const BronzeFalls = () => {
 
                             <div className="full-col"
 >
-                                <Player playsInline={true} autoPlay muted loop={true} src={images.img6}>
-                                    <ControlBar disableCompletely={true}/>
+                                <Player playsInline={true} autoPlay muted loop={true} src={images.img6} fluid={false} width="100%" height="100%" className="video-player">
+                                    <ControlBar className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
 

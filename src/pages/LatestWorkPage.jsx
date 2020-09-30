@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import WorkPreview from '../components/WorkPreview';
 
 
+
 const ParentVarients = {
     start: {
         opacity: 0,

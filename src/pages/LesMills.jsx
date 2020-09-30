@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
 const images = {
     img1: "/assets/lesmills/bodycombat-website-1.mp4",
     img2: "/assets/lesmills/lm-infographic-ipad.mp4",
@@ -57,8 +58,8 @@ const LesMills = () => {
                     initial="start"
                     animate="end">
                         <div className="full-col">
-                            <Player playsInline={true} autoPlay muted loop={true} src={images.img1}>
-                                <ControlBar disableCompletely={true}/>
+                            <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img1} fluid={false} width="100%" height="100%">
+                                <ControlBar className="control-bar" disableCompletely={true}/>
                             </Player>
                         </div>
 
@@ -70,13 +71,13 @@ const LesMills = () => {
 
                        
                             <div className="two-col-left">
-                                <Player playsInline={true} autoPlay muted loop={true} src={images.img2}>
-                                    <ControlBar disableCompletely={true}/>
+                                <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img2} fluid={false} width="100%" height="100%">
+                                    <ControlBar className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                             <div className="two-col-right">
-                                <Player playsInline={true} autoPlay muted loop={true} src={images.img3}>
-                                    <ControlBar disableCompletely={true}/>
+                                <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img3} fluid={false} width="100%" height="100%">
+                                    <ControlBar className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                      
@@ -124,8 +125,8 @@ const LesMills = () => {
                                
                             </div>
                             <div className="two-col-right">
-                                <Player playsInline={true} autoPlay muted loop={true} src={images.img9}>
-                                    <ControlBar disableCompletely={true}/>
+                                <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img9} fluid={false} width="100%" height="100%">
+                                    <ControlBar className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
 

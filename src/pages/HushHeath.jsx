@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
 const images = {
     img1: "/assets/hushheath/thebull-web.mp4",
     img2: "/assets/hushheath/ttt-social-asset.jpg",
@@ -50,8 +51,8 @@ const HushHeath = () => {
                     animate="end">
                         
                         <div className="full-col">
-                            <Player playsInline={true} autoPlay muted loop={true} src={images.img1}>
-                                <ControlBar disableCompletely={true}/>
+                            <Player playsInline={true} autoPlay muted loop={true} src={images.img1} fluid={false} width="100%" height="100%" className="video-player">
+                                <ControlBar className="control-bar" disableCompletely={true}/>
                             </Player>
                         </div>
 
@@ -101,8 +102,8 @@ const HushHeath = () => {
                             </div>
 
                         <div className="full-col">
-                            <Player playsInline={true} autoPlay muted loop={true} src={images.img9}>
-                                <ControlBar disableCompletely={true}/>
+                            <Player playsInline={true} autoPlay muted loop={true} src={images.img9} fluid={false} width="100%" height="100%" className="video-player">
+                                <ControlBar className="control-bar" disableCompletely={true}/>
                             </Player>
                         </div>
 
