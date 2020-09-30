@@ -52,7 +52,7 @@ const HushHeath = () => {
                         
                         <div className="full-col">
                             <Player playsInline={true} autoPlay muted loop={true} src={images.img1} fluid={false} width="100%" height="100%" className="video-player">
-                                <ControlBar className="control-bar" disableCompletely={true}/>
+                                <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                             </Player>
                         </div>
 
@@ -103,7 +103,7 @@ const HushHeath = () => {
 
                         <div className="full-col">
                             <Player playsInline={true} autoPlay muted loop={true} src={images.img9} fluid={false} width="100%" height="100%" className="video-player">
-                                <ControlBar className="control-bar" disableCompletely={true}/>
+                                <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                             </Player>
                         </div>
 

@@ -73,7 +73,7 @@ const ChildVarients = {
                             <motion.div className="two-col-right"
                                 variants={ChildVarients}>
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img2} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </motion.div>
 
@@ -87,7 +87,7 @@ const ChildVarients = {
                             <motion.div className="full-col"
                                 variants={ChildVarients}>
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img3} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </motion.div>
                         
@@ -100,7 +100,7 @@ const ChildVarients = {
                             <motion.div className="two-col-left"
                                 variants={ChildVarients}>
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img4} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </motion.div>
 
@@ -133,7 +133,7 @@ const ChildVarients = {
                             <motion.div className="two-col-left"
                                 variants={ChildVarients}>
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img8} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </motion.div>
 
@@ -167,7 +167,7 @@ const ChildVarients = {
                             <motion.div className="three-col-left"
                                 variants={ChildVarients}>
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img10} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </motion.div>
                             <motion.div className="three-col-mid"

@@ -67,13 +67,13 @@ const BronzeFalls = () => {
                             <div className="two-col-left"
 >
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img2} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                             <div className="two-col-right"
 >
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img7} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                      
@@ -97,7 +97,7 @@ const BronzeFalls = () => {
                             <div className="full-col"
 >
                                 <Player playsInline={true} autoPlay muted loop={true} src={images.img6} fluid={false} width="100%" height="100%" className="video-player">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
 

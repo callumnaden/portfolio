@@ -59,7 +59,7 @@ const LesMills = () => {
                     animate="end">
                         <div className="full-col">
                             <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img1} fluid={false} width="100%" height="100%">
-                                <ControlBar className="control-bar" disableCompletely={true}/>
+                                <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                             </Player>
                         </div>
 
@@ -72,12 +72,12 @@ const LesMills = () => {
                        
                             <div className="two-col-left">
                                 <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img2} fluid={false} width="100%" height="100%">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                             <div className="two-col-right">
                                 <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img3} fluid={false} width="100%" height="100%">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
                      
@@ -126,7 +126,7 @@ const LesMills = () => {
                             </div>
                             <div className="two-col-right">
                                 <Player className="video-player" playsInline={true} autoPlay muted loop={true} src={images.img9} fluid={false} width="100%" height="100%">
-                                    <ControlBar className="control-bar" disableCompletely={true}/>
+                                    <ControlBar autoHide={true} className="control-bar" disableCompletely={true}/>
                                 </Player>
                             </div>
 
